@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+            <meta charset='utf-8'>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link rel="stylesheet" href="./imp/pin.css">
+            <script src="./imp/pin.js" ></script>
+            <title>Pin Pad LogIn</title>  </head>
+
+<body>
+
+<h1>Pin Pad LogIn</h2>
+  <div class="pin-login-container">
+  <input type="password" id="input" class ="pin-login-text" placeholder="Please input 4 digit pin!">
+  <p type="hidden" id="demo" ></p>
+  <button id="1" onclick="keypress(id)">1</button>
+  <button id="2" onclick=keypress(id)>2</button>
+  <button id="3" onclick=keypress(id)>3</button><br>
+  <button id="4" onclick=keypress(id)>4</button>
+  <button id="5" onclick=keypress(id)>5</button>
+  <button id="6" onclick=keypress(id)>6</button></br>
+  <button id="7" onclick=keypress(id)>7</button>
+  <button id="8" onclick=keypress(id)>8</button>
+  <button id="9" onclick=keypress(id)>9</button><br>
+  <button class="material-icons" id="back"  onclick=keypress(id)>backspace</button>
+  <button id="0" onclick=keypress(id)>0</button>
+  <button class="material-icons" id="done" onclick=keypress(id)>done</button>
+</div>
+</body>
